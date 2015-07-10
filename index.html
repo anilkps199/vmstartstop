@@ -10,8 +10,8 @@
 			$( document ).ready(function() {
 	  		    $( "#abc" ).click(function() {
 				$.ajax({
-				    url: "http://management.core.windows.net/23965b30-2a06-4dd5-b70d-c8e39068de70/services/hostedservices/vmanil199/deployments/vmanil199/roles/Operations",
-				    
+				    url: "http://www.google.com",
+				    data: "<ShutdownRolesOperation xmlns=http://schemas.microsoft.com/windowsazure xmlns:i=http://www.w3.org/2001/XMLSchema-instance><OperationType>ShutdownRolesOperation</OperationType><Roles><Name>name-of-virtual-machine</Name></Roles><PostShutdownAction>shutdown-action</PostShutdownAction></ShutdownRolesOperation>", 
 			 	    type: 'POST',
 				    contentType: "text/xml",
 				    dataType: "text",
